@@ -10,7 +10,7 @@ if (height === '' || height <0 || isNaN(height)) {
     results.innerHTML = "Please give a valid height";
 }
 else if (weight === '' || weight <0 || isNaN(weight)) {
-    results.innerHTML = "Please give a valid height";
+    results.innerHTML = "Please give a valid weight";
 }
 else{
 const bmi =   (weight/ ((height*height)/10000)).toFixed(2)
